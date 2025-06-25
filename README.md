@@ -16,9 +16,13 @@ Quas![Image alt](https://github.com/zhukoedov/OneLastJob/raw/main/assets/quas.pn
 Порядок сфер в комбинациях не важен.
 Для вызова сферы нужно нажать соответствующую ей кнопку (Quas - Q, Wex - W, Exort - E). А для создания заклинания нажать R.
 
+## Геймплей
+
+После выбора уровня сложности игроку предстоит создать (скастовать) заклинание, падающее вниз. После удачного каста игроку начисляется балл, а заклинание заменяется другим и начинает падать с самого верха. Упавшее в самый конец (к красной линии) заклинание означает конец игры и выводится статистика.
+
 ## Как начать играть?
 
-1. Скачать ZIP-файл этой ветки: https://github.com/zhukoedov/OneLastJob/raw/tree/master (Code->Download ZIP)
+1. Скачать ZIP-файл этой ветки: https://github.com/zhukoedov/OneLastJob/tree/master (Code->Download ZIP)
 2. Разархивировать в удобной папке
 3. Установить pip. В помощь -> https://pythonru.com/baza-znanij/ustanovka-pip-dlja-python-i-bazovye-komandy
 4. С помощью pip'a установить необходимые модули из списка requirements таким способом: В cmd пишем "pip install -r [путь до requirements.txt]"
