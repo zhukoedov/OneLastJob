@@ -1,38 +1,37 @@
-# OneLastJob
-Финальный проект
+# project_number1
 
-Работа в группах по 3-5 человек.
+Это InvokerGame. Идея заключается в том, чтобы как можно быстрее скомбинировать
+определенные заклинания из 3 сфер:  
+Quas![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/quas.png) , Wex![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/wex.png)  и Exort![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/exort.png) . Всего заклинаний 10:
+1. QQQ - Cold Snap  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/coldsnap.png)  
+2. QQW - Ghost Walk  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/ghostwalk.png)  
+3. QWW - Tornado  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/tornado.png)  
+4. WWW - EMP  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/emp.png)   
+5. WWE - Alacrity  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/alacrity.png)  
+6. WEE - Chaos Meteor  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/chaosmeteor.png)  
+7. EEE - Sunstrike  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/sunstrike.png)  
+8. EEQ - Forge Spirit  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/forgespirit.png)  
+9. EQQ - Ice Wall  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/icewall.png)  
+10. QWE - Deafenning Blast  ![Image alt](https://github.com/zhukoedov/OneLastJob/main/assets/deafenningblast.png)  
+Порядок сфер в комбинациях не важен.
+Для вызова сферы нужно нажать соответствующую ей кнопку (Quas - Q, Wex - W, Exort - E). А для создания заклинания нажать R.
 
-**Темы**
+## Геймплей
 
-1. Разработка бота для telegram;
-2. Распознавание жестов;
-3. Создание навыка Алисы;
-4. Игра типа платформер/квест/shoot'em'up;
-5. Веб-приложение для конвертации файлов из одного формата в другой;
-6. Графический редактор;
-7. Редактор звуковых файлов;
-8. Программа для измерений объекта при помощи технического зрения;
-9. Генератор карт для игры типа dungeon crawler;
-10. Мобильное приложение для подсчета объектов на картинке;
-11. CV motion tracking для контроля осанки / eye-tracking для оценки усталости в глазах;
-12. Бот для прогнозирования движения курса ценных бумаг;
-X. Своя тема...
+После запуска представится меню, на котором можно выбрать уровень сложности. После выбора режима появятся иконки заклинаний, которые нужно создать, пока они не упали. После удачного каста заклинания игроку присвоится очко, заклинание исчезнет, а вместо него с самого верха будет падать другое заклинание.
 
-**Требования**
+## Как начать играть?
 
-| Требование | :-1: | :+1: |
-|------------|------|------|
-|Оформление по PEP 8 (для других языков аккуратность)| -3 |4|
-|Соблюдение принципа DRY|-2|4|
-|Наличие коммитов от всех участников проекта| -3 |4|
-|Наличие читаемых сообщений коммита, отображающих суть изменений|0|2|
-|Использование системы докуметирования исходного кода (например, Doxygen)|0|4|
-|Наличие файла README.md с коротким описанием программы (что делает, как запустить и т.д.)|-1|2|
-|Наличие wiki-страницы с документаций и описанием программы|0|2|
-|Использование функций|-1|2|
-|Использование классов|0|4|
-|Использование наследования|0|2|
-|Оригинальность темы|0|5|
-|Полнота реализации|0|5|
-Итого|-10|40|
+1. Скачать ZIP-файл этой ветки: https://github.com/zhukoedov/OneLastJob/tree/master (Code->Download ZIP)
+2. Разархивировать в удобной папке
+3. Установить pip. В помощь -> https://pythonru.com/baza-znanij/ustanovka-pip-dlja-python-i-bazovye-komandy
+4. С помощью pip'a установить необходимые модули из списка requirements таким способом: В cmd пишем "pip install -r [путь до requirements.txt]"
+5. После окончания загрузки запускаем main.py
+
+## Функционал
+
+1. Графический интерфейс
+2. Различные уровни сложности
+3. Музыка и звуковые эффекты
+4. Подсчет статистики сессии
+5. Сохранение рекордов в различных режимах
