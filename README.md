@@ -24,7 +24,7 @@ Quas![Image alt](https://github.com/zhukoedov/OneLastJob/raw/main/assets/quas.pn
 
 1. Скачать ZIP-файл этой ветки: https://github.com/zhukoedov/OneLastJob/tree/master (Code->Download ZIP)
 2. Разархивировать в удобной папке
-3. С помощью pip'a установить необходимые модули из списка requirements таким способом: В cmd пишем "pip install -r [путь до requirements.txt]" (Можно пропусить, если есть пакет pygame)
+3. С помощью pip'a установить необходимые модули из списка requirements таким способом: В cmd пишем "pip install -r requirements.txt" (Можно пропусить, если есть пакет pygame)
 4. После окончания загрузки запускаем main.py
 
 ## Функционал
